@@ -10,6 +10,6 @@ public class Gmail extends Authenticator{
 	@Override
 	protected PasswordAuthentication getPasswordAuthentication() {
 		//실제로 메일을 보내줄 사람의 즉 관리자 메일 및 비밀번호
-		return new PasswordAuthentication("이메일주소, ");
+		return new PasswordAuthentication("이메일주소", "비밀번호");
 	}
 }
