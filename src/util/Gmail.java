@@ -4,12 +4,12 @@ import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 
 public class Gmail extends Authenticator{
-	//gmail¸¦ ÀÌ¿ë °èÁ¤
-	//ÀÎÁõ ¼öÇàÀ» µµ¿ÍÁÖ´Â Authenticator¸¦ »ó¼Ó
-	//±¸±Û ¼³Á¤ -> º¸¾È ¼öÁØÀÌ ³·Àº ¾ÛÀÇ ¾×¼¼½º -> Çã¿ë ÇÏ¹Ç·Î Æ¯Á¤ÇÑ °¡ÀÔ »ç¿ëÀÚ¿¡°Ô ¸ŞÀÏÀü¼Û ±¸Çö
+	//gmailë¥¼ ì´ìš© ê³„ì •
+	//ì¸ì¦ ìˆ˜í–‰ì„ ë„ì™€ì£¼ëŠ” Authenticatorë¥¼ ìƒì†
+	//êµ¬ê¸€ ì„¤ì • -> ë³´ì•ˆ ìˆ˜ì¤€ì´ ë‚®ì€ ì•±ì˜ ì•¡ì„¸ìŠ¤ -> í—ˆìš© í•˜ë¯€ë¡œ íŠ¹ì •í•œ ê°€ì… ì‚¬ìš©ìì—ê²Œ ë©”ì¼ì „ì†¡ êµ¬í˜„
 	@Override
 	protected PasswordAuthentication getPasswordAuthentication() {
-		//½ÇÁ¦·Î ¸ŞÀÏÀ» º¸³»ÁÙ »ç¶÷ÀÇ Áï °ü¸®ÀÚ ¸ŞÀÏ ¹× ºñ¹Ğ¹øÈ£
-		return new PasswordAuthentication("kyusung612@gmail.com","Ksc8331028");
+		//ì‹¤ì œë¡œ ë©”ì¼ì„ ë³´ë‚´ì¤„ ì‚¬ëŒì˜ ì¦‰ ê´€ë¦¬ì ë©”ì¼ ë° ë¹„ë°€ë²ˆí˜¸
+		return new PasswordAuthentication("ì´ë©”ì¼ì£¼ì†Œ, ");
 	}
 }
